@@ -1,9 +1,9 @@
 <?php include_once "includes/header.php"; ?>
 
-<!-- Begin Page Content -->
+<!-- Contenido de la página de inicio -->
 <div class="container-fluid">
 
-	<!-- Page Heading -->
+	<!-- Encabezado de página -->
 	<div class="d-sm-flex align-items-center justify-content-between mb-4">
 		<h1 class="h3 mb-0 text-gray-800">Productos</h1>
 		<a href="registro_producto.php" class="btn btn-primary">Nuevo</a>
@@ -35,7 +35,7 @@
 								<tr>
 									<td><?php echo $data['codproducto']; ?></td>
 									<td><?php echo $data['descripcion']; ?></td>
-									<td><?php echo $data['precio']; ?></td>
+									<td>S/. <?php echo $data['precio']; ?></td>
 									<td><?php echo $data['existencia']; ?></td>
 										<?php if ($_SESSION['rol'] == 1) { ?>
 									<td>
@@ -60,10 +60,10 @@
 	</div>
 
 </div>
-<!-- /.container-fluid -->
+<!-- /.contenedor-fluido -->
 
 </div>
-<!-- End of Main Content -->
+<!-- Fin del contenido principal -->
 
 
 <?php include_once "includes/footer.php"; ?>

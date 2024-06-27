@@ -2,7 +2,6 @@
 <?php
 include("../conexion.php");
 session_start();
-//print_r($_POST);
 if (!empty($_POST)) {
   // Extraer datos del producto
   if ($_POST['action'] == 'infoProducto') {
@@ -136,7 +135,7 @@ if ($_POST['action'] == 'addProductoDetalle') {
   }
   exit;
 }
-// extrae datos del detalle tem
+// extrae datos del detalle temporal
 if ($_POST['action'] == 'searchForDetalle') {
 
   if (empty($_POST['user'])){
@@ -212,7 +211,7 @@ if ($_POST['action'] == 'searchForDetalle') {
   }
   exit;
 }
-// extrae datos del detalle temp
+// extrae datos del detalle temporal
 if ($_POST['action'] == 'delProductoDetalle') {
   if (empty($_POST['id_detalle'])){
     echo 'error';
@@ -297,7 +296,7 @@ if ($_POST['action'] == 'anularVenta') {
   }
   exit;
 }
-//procesarVenta
+// procesar Venta
 if ($_POST['action'] == 'procesarVenta') {
   if (empty($_POST['codcliente'])) {
     $codcliente = 1;
@@ -326,7 +325,7 @@ if ($_POST['action'] == 'procesarVenta') {
   exit;
 }
 
-  //procesarGuia
+  // procesar Guia
   if ($_POST['action'] == 'procesarGuia') {
     if (empty($_POST['codcliente'])) {
       $codcliente = 1;
@@ -354,7 +353,7 @@ if ($_POST['action'] == 'procesarVenta') {
     mysqli_close($conexion);
     exit;
   }
-  //procesarBoleta
+  // procesar Boleta
   if ($_POST['action'] == 'procesarBoleta') {
     if (empty($_POST['codcliente'])) {
       $codcliente = 1;

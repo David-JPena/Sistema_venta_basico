@@ -27,16 +27,16 @@
   }
   ?>
 
- <!-- Begin Page Content -->
+ <!-- Contenido de la página de inicio -->
  <div class="container-fluid">
 
-   <!-- Page Heading -->
+   <!-- Encabezado de página -->
    <div class="d-sm-flex align-items-center justify-content-between mb-4">
      <h1 class="h3 mb-0 text-gray-800">Panel de Administración</h1>
      <a href="lista_productos.php" class="btn btn-primary">Regresar</a>
    </div>
 
-   <!-- Content Row -->
+   <!-- Fila de contenido -->
    <div class="row">
      <div class="col-lg-6 m-auto">
        <form action="" method="post" autocomplete="off">
@@ -52,7 +52,6 @@
              <?php
               if ($resultado_proveedor > 0) {
                 while ($proveedor = mysqli_fetch_array($query_proveedor)) {
-                  // code...
               ?>
                  <option value="<?php echo $proveedor['codproveedor']; ?>"><?php echo $proveedor['proveedor']; ?></option>
              <?php
@@ -66,7 +65,7 @@
            <input type="text" placeholder="Ingrese nombre del producto" name="producto" id="producto" class="form-control">
          </div>
          <div class="form-group">
-           <label for="precio">Precio</label>
+           <label for="precio">Precio S/.</label>
            <input type="text" placeholder="Ingrese precio" class="form-control" name="precio" id="precio">
          </div>
          <div class="form-group">
@@ -80,8 +79,8 @@
 
 
  </div>
- <!-- /.container-fluid -->
+ <!-- /.contenedor-fluido -->
 
  </div>
- <!-- End of Main Content -->
+ <!-- Fin del contenido principal -->
  <?php include_once "includes/footer.php"; ?>

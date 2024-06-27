@@ -47,29 +47,33 @@ if (!empty($_SESSION['active'])) {
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Vida Informatico</title>
+  <title>ModaStyle Manufacturing S.A.</title>
 
-  <!-- Custom fonts for this template-->
+  <!-- Fuentes personalizadas -->
   <link href="sistema/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <!-- Custom styles for this template-->
+  <!-- Estilos personalizados -->
   <link href="sistema/css/sb-admin-2.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="sistema/css/login.css">
 
 </head>
 
-<body class="bg-gradient-primary">
+<!-- Cambiar de fondo -->
+<!-- Centrar fondo -->
+<body class="li-backgroundApp">
 
   <div class="container">
-    <!-- Outer Row -->
+    <!-- Fila exterior -->
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
+            <!-- Fila anidada dentro del cuerpo de la tarjeta -->
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block bg-login-image">
-                <img src="sistema/img/logo.jpg" class="img-thumbnail">
+                <img src="sistema/img/logo2.jpeg" class="img-thumbnail">
               </div>
               <div class="col-lg-6">
                 <div class="p-5">
@@ -101,14 +105,14 @@ if (!empty($_SESSION['active'])) {
 
   </div>
 
-  <!-- Bootstrap core JavaScript-->
+  <!-- JavaScript básico de Bootstrap-->
   <script src="sistema/vendor/jquery/jquery.min.js"></script>
   <script src="sistema/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Core plugin JavaScript-->
+  <!-- Complemento principal JavaScript-->
   <script src="sistema/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for all pages-->
+  <!-- Scripts personalizados para todas las páginas-->
   <script src="sistema/js/sb-admin-2.min.js"></script>
 
 </body>

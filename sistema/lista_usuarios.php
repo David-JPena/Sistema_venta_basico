@@ -1,9 +1,9 @@
 ﻿<?php include_once "includes/header.php"; ?>
 
-<!-- Begin Page Content -->
+<!-- Contenido de la página de inicio -->
 <div class="container-fluid">
 
-	<!-- Page Heading -->
+	<!-- Encabezado de página -->
 	<div class="d-sm-flex align-items-center justify-content-between mb-4">
 		<h1 class="h3 mb-0 text-gray-800">Usuarios</h1>
 		<?php if ($_SESSION['rol'] == 1) { ?>
@@ -62,10 +62,10 @@
 
 
 </div>
-<!-- /.container-fluid -->
+<!-- /.contenedor-fluido -->
 
 </div>
-<!-- End of Main Content -->
+<!-- Fin del contenido principal -->
 
 
 <?php include_once "includes/footer.php"; ?>

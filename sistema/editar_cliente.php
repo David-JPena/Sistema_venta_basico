@@ -55,7 +55,7 @@ if ($result_sql == 0) {
   }
 }
 ?>
-        <!-- Begin Page Content -->
+        <!-- Contenido de la página de inicio -->
         <div class="container-fluid">
 
           <div class="row">
@@ -87,8 +87,8 @@ if ($result_sql == 0) {
 
 
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.contenedor-fluido -->
 
       </div>
-      <!-- End of Main Content -->
+      <!-- Fin del contenido principal -->
       <?php include_once "includes/footer.php"; ?>

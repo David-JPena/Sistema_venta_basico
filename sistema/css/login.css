@@ -1,0 +1,10 @@
+.li-backgroundApp {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("../img/fondo.jpeg");
+  background-size: cover; /* Asegura que la imagen cubra todo el body */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen */
+  place-content: center;
+}

@@ -39,9 +39,9 @@ if (!empty($_POST)) {
 mysqli_close($conexion);
 ?>
 
-<!-- Begin Page Content -->
+<!-- Contenido de la página de inicio -->
 <div class="container-fluid">
-    <!-- Content Row -->
+    <!-- Fila de contenido -->
     <div class="row">
         <div class="col-lg-6 m-auto">
             <div class="card-header bg-primary text-white">
@@ -75,8 +75,8 @@ mysqli_close($conexion);
 
 
 </div>
-<!-- /.container-fluid -->
+<!-- /.contenedor-fluido -->
 
 </div>
-<!-- End of Main Content -->
+<!-- Fin del contenido principal -->
 <?php include_once "includes/footer.php"; ?>

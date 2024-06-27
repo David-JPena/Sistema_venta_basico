@@ -1,4 +1,4 @@
-<!-- Footer -->
+<!-- Pie de página -->
 <footer class="sticky-footer bg-white">
   <div class="container my-auto">
     <div class="copyright text-center my-auto">
@@ -6,20 +6,20 @@
     </div>
   </div>
 </footer>
-<!-- End of Footer -->
+<!-- Fin del pie de página -->
 
 </div>
-<!-- End of Content Wrapper -->
+<!-- Fin del contenedor de contenido -->
 
 </div>
-<!-- End of Page Wrapper -->
+<!-- Contenedor de fin de página -->
 
-<!-- Scroll to Top Button-->
+<!-- Desplácese hasta el botón superior-->
 <a class="scroll-to-top rounded" href="#page-top">
   <i class="fas fa-angle-up"></i>
 </a>
 
-<!-- Logout Modal-->
+<!-- Modal de cierre de sesión-->
 <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -38,15 +38,15 @@
   </div>
 </div>
 
-<!-- Bootstrap core JavaScript-->
+<!-- JavaScript básico de Bootstrap-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Core plugin JavaScript-->
+<!-- Complemento principal JavaScript-->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <script src="js/all.min.js"></script>
 
-<!-- Custom scripts for all pages-->
+<!-- Scripts personalizados para todas las páginas-->
 <script src="js/sb-admin-2.min.js"></script>
 <script src="js/jquery.dataTables.min.js"></script>
 <script src="js/dataTables.bootstrap4.min.js"></script>

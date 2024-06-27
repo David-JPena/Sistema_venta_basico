@@ -43,13 +43,15 @@ if ($result_data > 0) {
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
+	
 	<title>Punto de Venta</title>
-
-	<!-- Custom styles for this template-->
+	
+	<!-- Estilos personalizados -->
 	<link href="css/sb-admin-2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="icon" href="sistema/img/logo21.png" type="image/png">
+	
 </head>
 
 <body id="page-top">
@@ -62,38 +64,39 @@ if ($result_data > 0) {
 	}
 
 	?>
-	<!-- Page Wrapper -->
+	<!-- Contenedor de página -->
 	<div id="wrapper">
 
 		<?php include_once "includes/menu.php"; ?>
-		<!-- Content Wrapper -->
+		<!-- Contenedor de contenido -->
 		<div id="content-wrapper" class="d-flex flex-column">
 
-			<!-- Main Content -->
+			<!-- Contenido principal -->
 			<div id="content">
-				<!-- Topbar -->
-				<nav class="navbar navbar-expand navbar-light bg-primary text-white topbar mb-4 static-top shadow">
 
-					<!-- Sidebar Toggle (Topbar) -->
+				 <!-- Cambiar color el header  -->
+				<nav class="navbar navbar-expand navbar-light bg-dark text-white topbar mb-4 static-top shadow">
+
+					<!-- Alternar barra lateral (barra superior) -->
 					<button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
 						<i class="fa fa-bars"></i>
 					</button>
-					<div class="input-group">
+					<div class="input-group d-flex align-items-center">
 						<h6>Sistema de Venta</h6>
 						<p class="ml-auto"><strong>Peru, </strong><?php echo fechaPeru(); ?></p>
 					</div>
 
-					<!-- Topbar Navbar -->
+					<!-- Barra de navegación de la barra superior -->
 					<ul class="navbar-nav ml-auto">
 
 						<div class="topbar-divider d-none d-sm-block"></div>
 
-						<!-- Nav Item - User Information -->
+						<!-- Elemento de navegación - Información del usuario -->
 						<li class="nav-item dropdown no-arrow">
 							<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span class="mr-2 d-none d-lg-inline small text-white"><?php echo $_SESSION['nombre']; ?></span>
 							</a>
-							<!-- Dropdown - User Information -->
+							<!-- Menú desplegable - Información del usuario -->
 							<div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
 								<a class="dropdown-item" href="#">
 									<i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>

@@ -28,7 +28,7 @@
 			</div>
 		</a>
 
-		<!-- Earnings (Monthly) Card Example -->
+		<!-- Ejemplo de tarjeta de ganancias (mensual) -->
 		<a class="col-xl-3 col-md-6 mb-4" href="lista_cliente.php">
 			<div class="card border-left-success shadow h-100 py-2">
 				<div class="card-body">
@@ -45,7 +45,7 @@
 			</div>
 		</a>
 
-		<!-- Earnings (Monthly) Card Example -->
+		<!-- Ejemplo de tarjeta de ganancias (mensual) -->
 		<a class="col-xl-3 col-md-6 mb-4" href="lista_productos.php">
 			<div class="card border-left-info shadow h-100 py-2">
 				<div class="card-body">
@@ -71,7 +71,7 @@
 			</div>
 		</a>
 
-		<!-- Pending Requests Card Example -->
+		<!-- Ejemplo de tarjeta de solicitudes pendientes -->
 		<a class="col-xl-3 col-md-6 mb-4" href="ventas.php">
 			<div class="card border-left-warning shadow h-100 py-2">
 				<div class="card-body">
@@ -88,7 +88,7 @@
 			</div>
 		</a>
 	</div>
-	<!-- Page Heading -->
+	<!-- Encabezado de página -->
 	<div class="d-sm-flex align-items-center justify-content-between mb-4">
 		<h1 class="h3 mb-0 text-gray-800">Configuración</h1>
 	</div>
@@ -228,10 +228,10 @@
 
 
 </div>
-<!-- /.container-fluid -->
+<!-- /.contenedor-fluido -->
 
 </div>
-<!-- End of Main Content -->
+<!-- Fin del contenido principal -->
 
 
 <?php include_once "includes/footer.php"; ?>

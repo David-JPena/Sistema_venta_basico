@@ -1,6 +1,6 @@
 <?php include_once "includes/header.php"; ?>
 
-                <!-- Begin Page Content -->
+                <!-- Contenido de la página de inicio -->
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
@@ -67,7 +67,7 @@
                                     <thead class="thead-dark">
                                         <tr>
                                             <th width="100px">Código</th>
-                                            <th>Des.</th>
+                                            <th>Descripción</th>
                                             <th>Stock</th>
                                             <th width="100px">Cantidad</th>
                                             <th class="textright">Precio</th>
@@ -93,12 +93,11 @@
                                         </tr>
                                     </thead>
                                     <tbody id="detalle_venta">
-                                        <!-- Contenido ajax -->
 
                                     </tbody>
 
                                     <tfoot id="detalle_totales">
-                                        <!-- Contenido ajax -->
+
                                     </tfoot>
                                 </table>
 
@@ -107,10 +106,10 @@
                     </div>
 
                 </div>
-                <!-- /.container-fluid -->
+                <!-- /.contenedor-fluido -->
 
             </div>
-            <!-- End of Main Content -->
+            <!-- Fin del contenido principal -->
 
 
             <?php include_once "includes/footer.php"; ?>

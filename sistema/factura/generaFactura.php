@@ -19,14 +19,14 @@
 		$result_cliente = mysqli_fetch_assoc($clientes);
 		$productos = mysqli_query($conexion, "SELECT d.nofactura, d.codproducto, d.cantidad, p.codproducto, p.descripcion, p.precio FROM detallefactura d INNER JOIN producto p ON d.nofactura = $noFactura WHERE d.codproducto = p.codproducto");
 		require_once 'fpdf/fpdf.php';
-		$pdf = new FPDF('P', 'mm', array(80, 200));
+		$pdf = new FPDF('P', 'mm', array(90, 200));
 		$pdf->AddPage();
 		$pdf->SetMargins(1, 0, 0);
 		$pdf->SetTitle("Ventas");
 		$pdf->SetFont('Arial', 'B', 9);
 		$pdf->Cell(60, 5, utf8_decode($resultado['nombre']), 0, 1, 'C');
 		$pdf->Ln();
-		$pdf->image("img/logo.jpg", 50, 18, 15, 15, 'JPG');
+		$pdf->image("img/LOGO3.png", 50, 18, 15, 15, 'PNG');
 		$pdf->SetFont('Arial', 'B', 7);
 		$pdf->Cell(15, 5, "Ruc: ", 0, 0, 'L');
 		$pdf->SetFont('Arial', '', 7);

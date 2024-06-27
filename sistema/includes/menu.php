@@ -1,26 +1,26 @@
-<!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+ <!-- Cambiar color de sidebar -->
+<ul class="navbar-nav sidebar bg-primary sidebar-dark accordion" id="accordionSidebar" style="/* background-color: #b6b9cc */">
 
-	<!-- Sidebar - Brand -->
+	<!-- Barra lateral - Marca -->
 	<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
 		<div class="sidebar-brand-icon rotate-n-15">
-			<img src="img/logo.jpg" class="img-thumbnail">
+			<img src="img/logo2.jpeg" class="img-thumbnail">
 		</div>
 		<div class="sidebar-brand-text mx-3">Modastyle</div>
 	</a>
 
-	<!-- Divider -->
+	<!-- Divisor ​​-->
 	<hr class="sidebar-divider my-0">
 
-	<!-- Divider -->
+	<!-- Divisor ​​-->
 	<hr class="sidebar-divider">
 
-	<!-- Heading -->
-	<div class="sidebar-heading">
+	<!-- Encabezado -->
+	<div class="sidebar-heading text-white">
 		Interface
 	</div>
 
-	<!-- Nav Item - Pages Collapse Menu -->
+	<!-- Elemento de navegación - Menú contraer páginas -->
 	<li class="nav-item">
 		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 			<i class="fas fa-fw fa-cog"></i>
@@ -34,7 +34,7 @@
 		</div>
 	</li>
 
-	<!-- Nav Item - Productos Collapse Menu -->
+	<!-- Elemento de navegación - Productos Menú contraer -->
 	<li class="nav-item">
 		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
 			<i class="fas fa-fw fa-wrench"></i>
@@ -48,7 +48,7 @@
 		</div>
 	</li>
 
-	<!-- Nav Item - Clientes Collapse Menu -->
+	<!-- Elemento de navegación - Menú contraer Clientes -->
 	<li class="nav-item">
 		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseClientes" aria-expanded="true" aria-controls="collapseUtilities">
 			<i class="fas fa-users"></i>
@@ -61,7 +61,7 @@
 			</div>
 		</div>
 	</li>
-	<!-- Nav Item - Utilities Collapse Menu -->
+	<!-- Elemento de navegación - Menú contraído Utilidades -->
 	<li class="nav-item">
 		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProveedor" aria-expanded="true" aria-controls="collapseUtilities">
 			<i class="fas fa-hospital"></i>
@@ -75,7 +75,7 @@
 		</div>
 	</li>
 	<?php if ($_SESSION['rol'] == 1) { ?>
-		<!-- Nav Item - Usuarios Collapse Menu -->
+		<!-- Elemento de navegación - Usuarios Menú contraer -->
 		<li class="nav-item">
 			<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsuarios" aria-expanded="true" aria-controls="collapseUtilities">
 				<i class="fas fa-user"></i>
